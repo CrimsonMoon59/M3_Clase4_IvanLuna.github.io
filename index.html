@@ -5,8 +5,100 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto Final</title>
+
+    <link rel="shortcut icon" href="images/Iconos/Icono1.png" type="image/x-icon">
+
+    <!--Referencias de bootstrap-->
+    <link rel="stylesheet" href="dist/bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+    <script src="dist/bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Proyecto Final</h1>
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-sm bg-dark" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand">
+                    <img src="images/Iconos/Icono1.png" alt="Logotipo" width="40">
+                    MiPortafolio
+                </a>
+                <button class="navbar-toggler" 
+                type="button" 
+                data-bs-toggle="collapse" data-bs-target="#MenuContenido"
+                aria-controls="MenuContenido"
+                aria-expanded="false"
+                aria-label=""
+                >
+                <span class="navbar-toggler-icon">
+                    
+                </span>
+                </button>
+                <div class="collapse navbar-collapse " id="MenuContenido">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Proyectos">Mis Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Productos">Productos</a>
+                        </li>
+                        <li >
+                            <a class="nav-link" href="#Contactos">Contactos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="mb-5">
+            <div class="container pt-4">
+                <h1>Ivan Luna</h1>
+                <p>Estudiante de ingenieria buscando practicas profesionales</p>
+                <button class="btn btn-success"> Registrarme </button>
+                <button class="btn btn-primary"> Saber mas... </button>
+            </div>
+        </div>
+        <section id="Proyectos" class="mb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="card" class="mb-3">
+                            <img class="card-img-top" src="images/Img/Img1.jpg" alt="">
+                            <div class="card-body">
+                                <h5>Diseño Web</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" class="mb-3">
+                            <img class="card-img-top" src="images/Img/Img3.jpg" alt="">
+                            <div class="card-body">
+                                <h5>Bases De Datos</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" class="mb-3">
+                            <img class="card-img-top" src="images/Img/Img2.jpg" alt="">
+                            <div class="card-body">
+                                <h5>Aplicaciones Moviles</h5>
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="col">
+                        <div class="card" class="mb-3">
+                            <img class="card-img-top" src="images/Img/Img4.jpg" alt="">
+                            <div class="card-body">
+                                <h5>Servicios</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
