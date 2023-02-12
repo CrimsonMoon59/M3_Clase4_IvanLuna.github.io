@@ -16,7 +16,7 @@ h1{
     -webkit-background-clip: text;
 }
 body{
-    background-image: linear-gradient(#ffffffa0,#ffffff89 ), url('Images/Img/fondo.jpg');
+    background-image: linear-gradient(#ffffffa0,#ffffff89 ), url('/images/Img/fondo.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
