@@ -16,7 +16,7 @@
 </head>
 <body>
     <header class="sticky-top">
-        <nav class="navbar navbar-expand-sm bg-dark" data-bs-theme="dark">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark" data-bs-theme="dark">
             <div class="container-fluid">
                 <a href="#" class="navbar-brand">
                     <img src="images/Iconos/Icono1.png" alt="Logotipo" width="40">
@@ -29,9 +29,7 @@
                 aria-expanded="false"
                 aria-label=""
                 >
-                <span class="navbar-toggler-icon">
-                    
-                </span>
+                <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse " id="MenuContenido">
                     <ul class="navbar-nav">
@@ -51,43 +49,47 @@
     </header>
     <main>
         <div class="mb-5">
-            <div class="container pt-4">
-                <h1>Ivan Luna</h1>
-                <p>Estudiante de ingenieria buscando practicas profesionales</p>
-                <button class="btn btn-success"> Registrarme </button>
-                <button class="btn btn-primary"> Saber mas... </button>
+            <div id="Banner">
+                <div class="container pt-5">
+                    <h1>Ivan Luna</h1>
+                    <p>Estudiante de ingenieria</p>
+                    <button class="btn btn-success"> Registrarme </button>
+                    <button class="btn btn-primary"> Saber mas... </button>
+                </div>
             </div>
         </div>
         <section id="Proyectos" class="mb-5">
             <div class="container">
+                <h2>Proyectos</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit perspiciatis rerum in accusantium alias quo deserunt quam vitae quidem! Exercitationem, sequi tenetur ut dolores numquam autem delectus praesentium aliquid temporibus.</p>
                 <div class="row">
                     <div class="col">
-                        <div class="card" class="mb-3">
-                            <img class="card-img-top" src="images/Img/Img01_sm.jpg" srcset="/images/Img01_sm.jpg 480w, /images/Img01_md.jpg 800w" alt="">
+                        <div class="card mb-3">
+                            <img class="card-img-top" src="images/Img/Img01_sm.jpg" srcset="images/Img/Img01_sm.jpg 480w, images/Img/Img01_md.jpg 800w" alt="">
                             <div class="card-body">
                                 <h5>Diseño Web</h5>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card" class="mb-3">
-                            <img class="card-img-top" src="images/Img/Img02_sm.jpg" srcset="/images/Img02_sm.jpg 480w, /images/Img02_md.jpg 800w" alt="">
+                        <div class="card mb-3">
+                            <img class="card-img-top" src="images/Img/Img02_sm.jpg" srcset="images/Img/Img02_sm.jpg 480w, images/Img/Img02_md.jpg 800w" alt="">
                             <div class="card-body">
                                 <h5>Bases De Datos</h5>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card" class="mb-3">
-                            <img class="card-img-top" src="images/Img/Img03_sm.jpg" srcset="/images/Img03_sm.jpg 480w, /images/Img03_md.jpg 800w" alt="">
+                        <div class="card mb-3">
+                            <img class="card-img-top" src="images/Img/Img03_sm.jpg" srcset="images/Img/Img03_sm.jpg 480w, images/Img/Img03_md.jpg 800w" alt="">
                             <div class="card-body">
                                 <h5>Aplicaciones Moviles</h5>
                             </div>
                         </div>    
                     </div>
                     <div class="col">
-                        <div class="card" class="mb-3">
-                            <img class="card-img-top" src="images/Img/Img04_sm.jpg" srcset="/images/Img04_sm.jpg 480w, /images/Img04_md.jpg 800w" alt="">
+                        <div class="card mb-3">
+                            <img class="card-img-top" src="images/Img/Img04_sm.jpg" srcset="images/Img/Img04_sm.jpg 480w, images/Img/Img04_md.jpg 800w" alt="">
                             <div class="card-body">
                                 <h5>Servicios</h5>
                             </div>
@@ -96,9 +98,60 @@
                 </div>
             </div>
         </section>
+        <section id="Productos" class="mb-5">
+            <div class="container">
+                <h2>Productos</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit perspiciatis rerum in accusantium alias quo deserunt quam vitae quidem! Exercitationem, sequi tenetur ut dolores numquam autem delectus praesentium aliquid temporibus.</p>
+                <div class="row">
+                    <div class="col">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-airplane-engines" viewBox="0 0 16 16">
+                            <path d="M8 0c-.787 0-1.292.592-1.572 1.151A4.347 4.347 0 0 0 6 3v3.691l-2 1V7.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.191l-1.17.585A1.5 1.5 0 0 0 0 10.618V12a.5.5 0 0 0 .582.493l1.631-.272.313.937a.5.5 0 0 0 .948 0l.405-1.214 2.21-.369.375 2.253-1.318 1.318A.5.5 0 0 0 5.5 16h5a.5.5 0 0 0 .354-.854l-1.318-1.318.375-2.253 2.21.369.405 1.214a.5.5 0 0 0 .948 0l.313-.937 1.63.272A.5.5 0 0 0 16 12v-1.382a1.5 1.5 0 0 0-.83-1.342L14 8.691V7.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v.191l-2-1V3c0-.568-.14-1.271-.428-1.849C9.292.591 8.787 0 8 0ZM7 3c0-.432.11-.979.322-1.401C7.542 1.159 7.787 1 8 1c.213 0 .458.158.678.599C8.889 2.02 9 2.569 9 3v4a.5.5 0 0 0 .276.447l5.448 2.724a.5.5 0 0 1 .276.447v.792l-5.418-.903a.5.5 0 0 0-.575.41l-.5 3a.5.5 0 0 0 .14.437l.646.646H6.707l.647-.646a.5.5 0 0 0 .14-.436l-.5-3a.5.5 0 0 0-.576-.411L1 11.41v-.792a.5.5 0 0 1 .276-.447l5.448-2.724A.5.5 0 0 0 7 7V3Z"/>
+                          </svg>
+                        <h5>Executive</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti nulla quaerat earum dolore eaque! Autem perspiciatis perferendis nostrum quas quidem, laboriosam in odit doloremque cumque hic rem, ut ratione harum.</p>
+                    </div>
+                    <div class="col">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-box-seam" viewBox="0 0 16 16">
+                            <path d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5l2.404.961L10.404 2l-2.218-.887zm3.564 1.426L5.596 5 8 5.961 14.154 3.5l-2.404-.961zm3.25 1.7-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923l6.5 2.6zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464L7.443.184z"/>
+                          </svg>
+                        <h5>Alliance</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae officiis consectetur quis non optio alias iste maxime similique iusto dolorem voluptate unde recusandae quisquam doloremque commodi, repudiandae hic possimus quia.</p>
+                    </div>
+                    <div class="col">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-building" viewBox="0 0 16 16">
+                            <path d="M4 2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1Zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1Zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1ZM4 5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1ZM7.5 5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm2.5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1ZM4.5 8a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm2.5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1Zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Z"/>
+                            <path d="M2 1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V1Zm11 0H3v14h3v-2.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5V15h3V1Z"/>
+                          </svg>
+                        <h5>Company</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt maxime doloremque rerum ea facilis explicabo tempore libero, beatae deserunt repudiandae. Obcaecati, explicabo nam magni consequuntur dolores corrupti libero ea rem?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="Contacto" class="mb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h2>Contacto</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, delectus! Eum impedit nemo tempore possimus sit amet inventore corporis ut, quibusdam tempora cumque ipsum, eveniet distinctio non veritatis perferendis repellat?</p>
+                    </div>
+                    <div class="col">
+                        <form action="">
+                            <label for="contacto-email">Escribe tu correo</label>
+                            <input type="email" id="contacto_email" class="form-control form-control-sm" placeholder="name@domain.com">
+                            <label for="contacto_message">Escribe tu comentario</label>
+                            <textarea name="contacto_message" id="contacto_message" class="form-control form-control-sm"></textarea>
+                            <input type="submit" value="Enviar" class="btn btn-success mt-4">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
-
+        <div class="container">
+            &copy; 2023 | Angel Ivan Luna Castillo | Educacion Contiuna - FIME
+        </div>
     </footer>
 </body>
 </html>

@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+.card img{
+    height: 200px;
+    object-fit: cover;
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    color: transparent;
+    font-size: 4rem;
+    font-weight: 600;
+    letter-spacing: -0.0015em;
+    background-image: linear-gradient(160deg, #55db74, #0e4764);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+body{
+    background-image: linear-gradient(#ffffffa0,#ffffff89 ), url('/images/Img/fondo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#Productos{
+    background-color: #0ea1ea;
+    color: white;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+#Productos .col{
+    text-align: center;
+}
+
+footer{
+    padding-top: 3rem;
+    background-color: #00000082;
+    backdrop-filter: blur(5px);
+    color: white;
+    height: 150px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#Banner{
+    background-image: linear-gradient(rgb(108, 108, 108), rgba(182, 183, 185, 0.067));
+    backdrop-filter: blur(1.5px);
+}
